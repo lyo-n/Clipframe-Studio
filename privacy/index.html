@@ -10,38 +10,61 @@
 <main>
 <nav><a href="../">Clipframe Studio</a></nav>
 <h1>Privacy Policy</h1>
-<p class="updated">Last updated October 11, 2026</p>
+<p class="updated">Last updated November 11, 2026</p>
 
-<p>Clipframe Studio does not collect or share any personal data. The app has no accounts,
-analytics, advertising or tracking, and it does not send anything to any server.</p>
+<p>Clipframe Studio does not collect or share any personal data. The app has no accounts, analytics,
+advertising or tracking, and it does not send any of your data to any server.</p>
 
-<p>Screenshots, screen recordings, recognized text and colors are created on your Mac and saved only
-to the folder you choose and to your clipboard. Text recognition and object cut-out run entirely on
-your device using Apple's Vision framework.</p>
+<p>Screenshots, screen recordings, recognized text and colors are created on your Mac and saved only to
+the folder you choose and to your clipboard. Text recognition and object cut-out run entirely on
+your device using Apple's Vision framework. If you turn on finding screenshots by their text
+(Clipframe Studio Pro), the screenshots in the app's own folder are read on your Mac with Apple's
+Vision framework, and the words found stay in the app's own data on your Mac.</p>
 
 <p>Clipboard history is off unless you turn it on. When it is on, what you copy is kept only on your
-Mac, in the app's own folder, for up to 7 days (pinned entries until you remove them), so you can copy
-it again later; it is never sent anywhere. You can pause, limit or clear the history at any time, and
-leave out any app.</p>
+Mac, in the app's own folder, for up to 7 days (pinned entries until you remove them), so you can
+copy it again later; it is never sent anywhere. You can pause, limit or clear the history at any
+time, and leave out any app.</p>
 
 <p>Passwords and keys are not saved by default. To recognize them at the moment you copy, the app
 checks on your Mac which app the copy comes from (password managers are always skipped), the page
-address a browser attaches to the copy, the title of the window in front (for example, a .env file open
-in an editor) and the shape of the text. The window title and the page address are only checked, never
-stored or sent anywhere.</p>
+address a browser attaches to the copy, the title of the window in front (for example, a .env file
+open in an editor) and the shape of the text. The window title and the page address are only
+checked, never stored or sent anywhere.</p>
 
 <p>Protected entries (Clipframe Studio Pro) open only after Touch ID or your Mac's password, checked by
-macOS; their text is encrypted with a key kept in your login keychain. If you turn on finding text in
-images, copied images are read on your Mac with Apple's Vision framework, and the text found is kept
-with the entry.</p>
+macOS; their text is encrypted with a key kept in your login keychain. If you turn on finding text
+in images, copied images are read on your Mac with Apple's Vision framework, and the text found is
+kept with the entry.</p>
 
-<p>The microphone and the webcam are used only while you record, and only if you turn them on; their
-sound and image go only into your recording on your Mac. For auto zoom, the pointer's position during
-a recording is kept on your Mac with the app's data and never leaves it.</p>
+<p>The microphone and the webcam are used only while you record or make a voice note, and only if you
+turn them on; their sound and image go only into your recording or note on your Mac. Recordings can
+take the sound of all apps, of the app in front or of apps you choose; to show which apps are
+playing sound, the app reads the list of apps using audio on your Mac, and nothing of it is stored
+or sent anywhere. For auto zoom, the pointer's position during a recording is kept on your Mac with
+the app's data and never leaves it. While you record, the video is written to a temporary folder in
+the app's own space, so that a recording cut short, for example by a crash, can be recovered the
+next time you open the app.</p>
 
-<p>Captions are recognized on your device with Apple's Speech framework, and the voice-over uses the
-voices built into macOS. Translation uses Apple's on-device Translation framework. The first time you
-translate or make captions in a language, macOS may download language files from Apple.</p>
+<p>Speech is recognized on your Mac: in transcripts of audio and video files, live captions, voice
+notes and captions in the video editor. This uses Apple's Speech framework or, if you choose one, an
+open-source speech model (OpenAI Whisper or NVIDIA Parakeet). The text, the transcripts and the
+voice notes (.m4a and .md files) stay on your Mac, in the app's own folder and the folder you
+choose. Live captions listen to the sound of other apps only while they are turned on; it is kept in
+memory and never saved. Voices are told apart on your Mac: voice prints exist only in memory while a
+file or a session is processed, are never stored, and nobody is identified.</p>
+
+<p>Speech models are not part of the app. You download one only if you choose to, in Settings or in the
+Transcripts window; the app then connects to Hugging Face (huggingface.co), which hosts the model
+files, only to fetch them. Like any download from a website, this lets Hugging Face see your IP
+address and that a model was requested, under its own privacy policy; nothing about you, your files,
+your recordings or your transcripts is sent. Apart from this and Apple's own purchase checks, the
+app does not connect to the internet. Once downloaded, a model recognizes speech entirely on your
+Mac, even offline, and you can delete it at any time in Settings.</p>
+
+<p>The voice-over uses the voices built into macOS. Translation uses Apple's on-device Translation
+framework. The first time you translate or make captions in a language, macOS may download language
+files from Apple.</p>
 
 <p>Purchases are processed by Apple through the App Store; Clipframe Studio only receives confirmation
 of your entitlement from StoreKit and never sees your payment details.</p>
